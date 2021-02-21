@@ -23,7 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/ci_multilingual_app/';
+// $config['base_url'] = 'http://localhost/ci_multilingual_app/';
+$config['base_url'] = 'http://local.rocket.co.in:8081/phpmyMultilingualCI/';
 
 /*
 |--------------------------------------------------------------------------
@@ -64,7 +65,8 @@ $config['uri_protocol']	= 'REQUEST_URI';
 |
 | https://codeigniter.com/user_guide/general/urls.html
 */
-$config['url_suffix'] = 'http://localhost/ci_multilingual_app';
+// $config['url_suffix'] = 'http://localhost/ci_multilingual_app';
+$config['url_suffix'] = 'http://local.rocket.co.in:8081/phpmyMultilingualCI';
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +326,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = '02557-269-259876-78956-31560519';
 
 /*
 |--------------------------------------------------------------------------
